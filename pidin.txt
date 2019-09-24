@@ -1,0 +1,56 @@
+     pid tid name               prio STATE       Blocked                     
+       1   1 /procnto-smp-instr   0f RUNNING                                 
+       1   2 /procnto-smp-instr   0f READY                                   
+       1   3 /procnto-smp-instr   0f RUNNING                                 
+       1   4 /procnto-smp-instr   0f RUNNING                                 
+       1   5 /procnto-smp-instr  10r RUNNING                                 
+       1   6 /procnto-smp-instr   1r RECEIVE     3                           
+       1   7 /procnto-smp-instr  10r CONDVAR     (0xffffff80600c70f8)        
+       1   8 /procnto-smp-instr  10r CONDVAR     (0xffffff80600c7100)        
+       1   9 /procnto-smp-instr 255r RECEIVE     6                           
+       1  10 /procnto-smp-instr 255r RECEIVE     1                           
+       1  11 /procnto-smp-instr 255r RECEIVE     1                           
+       1  12 /procnto-smp-instr 255r RECEIVE     1                           
+       1  13 /procnto-smp-instr  10r RECEIVE     1                           
+       1  14 /procnto-smp-instr  10r RECEIVE     1                           
+       1  15 /procnto-smp-instr  10r RECEIVE     1                           
+       1  16 /procnto-smp-instr  11r RECEIVE     1                           
+       1  17 /procnto-smp-instr  10r RECEIVE     1                           
+       1  18 /procnto-smp-instr  10r RECEIVE     1                           
+       2   1 proc/boot/pipe      10r SIGWAITINFO                             
+       2   2 proc/boot/pipe      10r RECEIVE     1                           
+       2   3 proc/boot/pipe      10r RECEIVE     1                           
+       2   4 proc/boot/pipe      10r RECEIVE     1                           
+       2   5 proc/boot/pipe      10r RECEIVE     1                           
+       3   1 proc/boot/slogger2  10r RECEIVE     1                           
+    4100   1 /boot/s32v-wdtkick  10r NANOSLEEP                               
+    4101   1 proc/boot/random    10r SIGWAITINFO                             
+    4101   2 proc/boot/random    10r NANOSLEEP                               
+    4101   3 proc/boot/random    10r RECEIVE     1                           
+    4102   1 t/devc-serlinflexd  24r RECEIVE     1                           
+    4102   2 t/devc-serlinflexd  10r SIGWAITINFO                             
+    4103   1 ot/devb-sdmmc-s32v  10r SIGWAITINFO                             
+    4103   2 ot/devb-sdmmc-s32v  21r RECEIVE     1                           
+    4103   3 ot/devb-sdmmc-s32v  21r RECEIVE     4                           
+    4103   4 ot/devb-sdmmc-s32v  21r RECEIVE     7                           
+    4103   5 ot/devb-sdmmc-s32v  10r RECEIVE     13                          
+    4103   6 ot/devb-sdmmc-s32v  10r RECEIVE     16                          
+    4103   7 ot/devb-sdmmc-s32v  10r RECEIVE     19                          
+    4103   8 ot/devb-sdmmc-s32v  10r RECEIVE     10                          
+    4103   9 ot/devb-sdmmc-s32v  10r RECEIVE     10                          
+    4103  10 ot/devb-sdmmc-s32v  21r RECEIVE     10                          
+    4104   1 oc/boot/spi-master  10r SIGWAITINFO                             
+    4104   2 oc/boot/spi-master  21r RECEIVE     5                           
+    4105   1 /boot/io-pkt-v6-hc  21r SIGWAITINFO                             
+    4105   2 /boot/io-pkt-v6-hc  21r RECEIVE     2                           
+    4105   3 /boot/io-pkt-v6-hc  21r RECEIVE     22                          
+   28683   1 proc/boot/dhclient  10r SIGWAITINFO                             
+   53258   1 proc/boot/devc-pty  10r RECEIVE     1                           
+   53260   1 proc/boot/qconn     10r SIGWAITINFO                             
+   53260   2 proc/boot/qconn     10r RECEIVE     1                           
+   53262   1 proc/boot/ksh       10r REPLY       4102                        
+   53264   1 proc/boot/inetd     10r SIGWAITINFO                             
+   69650   1 usr/sbin/sshd       10r SIGWAITINFO                             
+ 1122317   1 usr/sbin/sshd       10r SIGWAITINFO                             
+ 1134609   1 bin/sh              10r SIGSUSPEND                              
+ 1138703   1 proc/boot/pidin     10r REPLY       1                           

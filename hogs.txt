@@ -1,0 +1,23 @@
+      PID           NAME  MSEC PIDS  SYS       MEMORY
+        2           pipe     1   0%   0%    196k   3%
+        3       slogger2     1   0%   0%    192k   3%
+     4100   s32v-wdtkick     1   0%   0%     80k   1%
+     4101         random     1   0%   0%    148k   2%
+     4102 devc-serlinfle     1   0%   0%    152k   3%
+     4103 devb-sdmmc-s32     1   0%   0%    732k  14%
+     4104     spi-master     1   0%   0%    176k   3%
+     4105   io-pkt-v6-hc     1   0%   0%   1204k  23%
+    53258       devc-pty     1   0%   0%    180k   3%
+    28683       dhclient     1   0%   0%    772k  15%
+    53260          qconn     1   0%   0%    200k   3%
+   958479           hogs     1   0%   0%    116k   2%
+    53264          inetd     1   0%   0%    152k   3%
+   954385             sh     1   0%   0%    160k   3%
+    69650           sshd     1   0%   0%    424k   8%
+        1 procnto-smp-in     2   0%   0%      0k   0%
+    53262            ksh     6   0%   0%    160k   3%
+        0         [idle]  2999  24%  99%      0k   0%
+        1         [idle]  3003  24% 100%      0k   0%
+        2         [idle]  3003  24% 100%      0k   0%
+        3         [idle]  3002  24% 100%      0k   0%
+

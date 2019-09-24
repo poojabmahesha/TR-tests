@@ -1,0 +1,29 @@
+Computing times...17 processes; 55 threads;
+CPU states: 0.0% user, 0.2% kernel
+CPU  0 Idle: 97.9% 
+CPU  1 Idle: 100.2% 
+CPU  2 Idle: 100.2% 
+CPU  3 Idle: 100.5% 
+Memory: 512M total, 282M avail, page size 4K
+
+      PID   TID PRI STATE    HH:MM:SS    CPU  COMMAND
+        1    13  10 Rcv       0:00:00   0.10% kernel
+        1     5  10 Rcv       0:00:00   0.07% kernel
+        1    15  10 Run       0:00:00   0.05% kernel
+     4105     2  21 Rcv       0:00:00   0.02% io-pkt-v6-hc
+   311311     1  10 Rply      0:00:00   0.00% top
+     4100     1  10 NSlp      0:00:00   0.00% s32v-wdtkick
+    28683     1  10 SigW      0:00:00   0.00% dhclient
+    69650     1  10 SigW      0:00:00   0.00% sshd
+        2     6  10 Rcv       0:00:00   0.00% pipe
+     4101     2  10 NSlp      0:00:00   0.00% random
+
+             Min        Max       Average 
+CPU 0 idle:   97%        97%        97% 
+CPU 1 idle:  100%       100%       100% 
+CPU 2 idle:  100%       100%       100% 
+CPU 3 idle:  100%       100%       100% 
+Mem Avail:   282MB      282MB      282MB  
+Processes:    17         17         17    
+Threads:      55         55         55    
+

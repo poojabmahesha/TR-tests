@@ -1,0 +1,41 @@
+Jan 01 00:00:00.034                    random.4101                 slog*     0  random: Selecting timer as entropy source
+Jan 01 00:00:00.034                    random.4101                 slog      0  random: All ready, registering path names
+Jan 01 00:00:00.034                    random.4101                 slog      0  random: Daemonizing the process
+Jan 01 00:00:00.041          devc_serlinflexd.4102                 slog*     0  ser_attach_intr: Attaching to interrupt 91
+Jan 01 00:00:00.046           devb_sdmmc_s32v.4103                 slog*  1800  devb-sdmmc-s32v 1.00A (May  3 2018 13:50:52)
+Jan 01 00:00:00.048           devb_sdmmc_s32v.4103                 slog      0  libcam.so (Feb  6 2017 12:20:52) bver 606010d
+Jan 01 00:00:00.049           devb_sdmmc_s32v.4103                 slog   1800  sdio_cd:  insertion path 0, cd state 0x1
+Jan 01 00:00:00.126           devb_sdmmc_s32v.4103                 slog   1800  SD CID:
+Jan 01 00:00:00.126           devb_sdmmc_s32v.4103                 slog   1800    MID 0x27, OID 0x5048, PNM SD4GB
+Jan 01 00:00:00.126           devb_sdmmc_s32v.4103                 slog   1800    PRV 0xa1, PSN 0xdaa13c96, MDT 6-2017
+Jan 01 00:00:00.126           devb_sdmmc_s32v.4103                 slog   1800  SD CSD:
+Jan 01 00:00:00.126           devb_sdmmc_s32v.4103                 slog   1800    CSD_STRUCTURE 1, SPEC_VERS 0, CCC 0x5b5
+Jan 01 00:00:00.127           devb_sdmmc_s32v.4103                 slog   1800    TAAC 14, NSAC 0, TRAN_SPEED 50
+Jan 01 00:00:00.127           devb_sdmmc_s32v.4103                 slog   1800    C_SIZE 7591, C_SIZE_MULT 0
+Jan 01 00:00:00.127           devb_sdmmc_s32v.4103                 slog   1800    READ_BL_LEN 9, WRITE_BL_LEN 9
+Jan 01 00:00:00.127           devb_sdmmc_s32v.4103                 slog   1800    ERASE GRP_SIZE 0, GRP_MULT 0, SIZE 127
+Jan 01 00:00:00.127           devb_sdmmc_s32v.4103                 slog   1800    blksz 512, sectors 7774208, dtr 25000000
+Jan 01 00:00:00.127           devb_sdmmc_s32v.4103                 slog   1800  SD SW CAPS:
+Jan 01 00:00:00.127           devb_sdmmc_s32v.4103                 slog   1800    bus mode 0x3, cmd sys 0x1
+Jan 01 00:00:00.127           devb_sdmmc_s32v.4103                 slog   1800    drv type 0x1, curr limit 0x1
+Jan 01 00:00:00.127           devb_sdmmc_s32v.4103                 slog   1800    dtr 50000000
+Jan 01 00:00:00.127           devb_sdmmc_s32v.4103                 slog   1800  CFG:  Timing HS, DTR 50000000, Bus Width 4 bit
+
+Jan 01 00:00:00.128           devb_sdmmc_s32v.4103                 slog    100  cam-disk.so (Jan 19 2017 14:37:25)
+Jan 01 00:00:00.132           devb_sdmmc_s32v.4103                 slog      0  scsi_interpret_sense (sdmmc ptl-0:0:0):  cam_status=c4, scsi_status=2, flag=00000040, vuflag=0008, cmd=1a, error=70, sense=5, asc=24, ascq=0
+Jan 01 00:00:00.132           devb_sdmmc_s32v.4103                 slog      0  scsi_interpret_sense (sdmmc ptl-0:0:0):  cam_status=c4, scsi_status=2, flag=00000040, vuflag=0008, cmd=5a, error=70, sense=5, asc=24, ascq=0
+Jan 01 00:00:00.133           devb_sdmmc_s32v.4103                 slog      0  scsi_interpret_sense (sdmmc ptl-0:0:0):  cam_status=c4, scsi_status=2, flag=00000040, vuflag=0008, cmd=9e, error=70, sense=5, asc=24, ascq=0
+Jan 01 00:00:00.133           devb_sdmmc_s32v.4103                 slog      0  scsi_interpret_sense (sdmmc ptl-0:0:0):  cam_status=c4, scsi_status=2, flag=00000040, vuflag=0008, cmd=5a, error=70, sense=5, asc=24, ascq=0
+Jan 01 00:00:00.134           devb_sdmmc_s32v.4103                 slog      0  scsi_interpret_sense (sdmmc ptl-0:0:0):  cam_status=c4, scsi_status=2, flag=00000040, vuflag=0008, cmd=9e, error=70, sense=5, asc=24, ascq=0
+Jan 01 00:00:00.142                spi_master.4104               normal*     0  Starting spi-master resource manager
+Jan 01 00:00:00.152                     iopkt.4105          main_buffer*     0  tcpip starting
+Jan 01 00:00:00.155                     iopkt.4105          main_buffer      0  initializing IPsec...
+Jan 01 00:00:00.155                     iopkt.4105          main_buffer      0   done
+
+Jan 01 00:00:00.156                     iopkt.4105          main_buffer      0  IPsec: Initialized Security Association Processing.
+
+Jan 01 00:00:00.162                     iopkt.4105          main_buffer      0  devnp-mx6x-s32v-sw.so speed=1000,duplex=1
+Jan 01 00:00:00.162                     iopkt.4105          main_buffer      0  fec0
+
+Jan 01 00:00:00.703                     iopkt.4105          main_buffer      0  Timestamp clock 125MHz
+Jan 01 00:00:00.703                     iopkt.4105          main_buffer      0  mx6q_detect(): attached 1 devices

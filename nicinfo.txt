@@ -1,0 +1,42 @@
+fec0: 
+  S32V Ethernet Controller
+
+  Physical Node ID ........................... 001BC3 123422
+  Current Physical Node ID ................... 001BC3 123422
+  Current Operation Rate ..................... 1000.00 Mb/s full-duplex
+  Active Interface Type ...................... MII
+  Maximum Transmittable data Unit ............ 1500
+  Maximum Receivable data Unit ............... 1500
+  Hardware Interrupt ......................... 0x43
+  Hardware Interrupt ......................... 0x44
+  Hardware Interrupt ......................... 0x45
+  Hardware Interrupt ......................... 0x46
+  Memory Aperture ............................ 0x40032000 - 0x40032fff
+  Memory Aperture ............................ 0x2098000 - 0x2098fff
+  Promiscuous Mode ........................... Off
+  Multicast Support .......................... Enabled
+
+  Packets Transmitted OK ..................... 538
+  Bytes Transmitted OK ....................... 162162
+  Broadcast Packets Transmitted OK ........... 7
+  Multicast Packets Transmitted OK ........... 5
+  Memory Allocation Failures on Transmit ..... 0
+
+  Packets Received OK ........................ 610
+  Bytes Received OK .......................... 91434
+  Broadcast Packets Received OK .............. 1
+  Multicast Packets Received OK .............. 0
+  Memory Allocation Failures on Receive ...... 0
+
+  Single Collisions on Transmit .............. 0
+  Multiple Collisions on Transmit ............ 0
+  Deferred Transmits ......................... 0
+  Late Collision on Transmit errors .......... 0
+  Transmit Underruns ......................... 0
+  No Carrier on Transmit ..................... 0
+  Jabber detected ............................ 0
+  Receive Alignment errors ................... 0
+  Received packets with CRC errors ........... 0
+  Oversized Packets received ................. 0
+  Short packets .............................. 0
+

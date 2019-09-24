@@ -1,0 +1,178 @@
+Header size=0x00000108, Total Size=0x00000d60, #Cpu=4, Type=257
+Section:system_private offset:0x000003a8 size:0x000000b8
+  syspage ptr user:00000000ffffe000 kernel:ffffff8040204000
+  cpupage ptr user:00000000fffff1d8 kernel:ffffff80402051d8 spacing:112
+  kdebug info:ffffff80af0aa080 callback:0000000000000000 num_ready:0
+  pagesize:00001000 flags:00000000, kdinfo:00000000 tracebuf:0000000000000000
+Section:qtime offset:0x000002c8 size:0x00000060
+  boot:00000000 CPS:0000000000989680 rate/scale:1/-7 intr:27
+  flags:00000003 load:10000 epoch:1970 rr_mul:0 adj count/inc:0/0
+  nsec:0000003934ebd7c4 stable:0000003934ebd7c4 inc:000f4240
+  nsec_tod_adj:0000000000000000
+Section:callout offset:0x00000108 size:0x000000c0
+  reboot:ffffff8040205040 power:0000000000000000 watchdog:0000000000000000
+  timer_load:ffffff804020506c reload:ffffff804020508c value:ffffff80402050cc
+  0) display:ffffff80402050e8 poll:ffffff8040205110 break:ffffff804020513c
+  1) display:0000000000000000 poll:0000000000000000 break:0000000000000000
+Section:cpuinfo offset:0x00000328 size:0x00000080 elsize:0x00000020
+  0) cpu:410fd034 flg:c0000c7a spd:1000 hwid:80000000 cache i/d:0/1 name:92
+     history:00000000001fc0ef
+  1) cpu:410fd034 flg:c0000c7a spd:1000 hwid:80000001 cache i/d:0/1 name:92
+     history:0000000000003f50
+  2) cpu:410fd034 flg:c0000c7a spd:1000 hwid:80000100 cache i/d:0/1 name:92
+     history:0000000000000000
+  3) cpu:410fd034 flg:c0000c7a spd:1000 hwid:80000101 cache i/d:0/1 name:92
+     history:0000000000000000
+Section:cacheattr offset:0x00000ca0 size:0x00000040 elsize:0x00000020
+  0) flags:01 size:0040 #lines:0200 ways:0002 control:ffffff8040204d60 next:255
+  1) flags:02 size:0040 #lines:0200 ways:0004 control:ffffff8040204db0 next:255
+Section:asinfo offset:0x00000920 size:0x000002c0 elsize:0x00000020
+  0000) 0000000000000000-0000ffffffffffff o:ffff a:0010 p:100 c:0 n:/memory
+  0020) 0000000000000000-00000000ffffffff o:0000 a:0010 p:100 c:0 n:/memory/below4G
+  0040) 0000000080000000-000000008fffffff o:0020 a:0017 p:100 c:0 n:/memory/below4G/ram
+  0060) 00000000c0000000-00000000cfffffff o:0020 a:0017 p:100 c:0 n:/memory/below4G/ram
+  0080) 00000000c0000000-00000000c0ffffff o:0060 a:0007 p:100 c:0 n:/memory/below4G/ram/dcu
+  00a0) 00000000c1000000-00000000c10fffff o:0060 a:0007 p:100 c:0 n:/memory/below4G/ram/shm
+  00c0) 000000008b000000-000000008fffffff o:0040 a:0007 p:100 c:0 n:/memory/below4G/ram/oalddr0
+  00e0) 00000000cb000000-00000000cfffffff o:0060 a:0007 p:100 c:0 n:/memory/below4G/ram/oalddr1
+  0100) 000000003e800000-000000003eafffff o:0020 a:0007 p:100 c:0 n:/memory/below4G/oalsramS
+  0120) 000000003eb00000-000000003ebfffff o:0020 a:0007 p:100 c:0 n:/memory/below4G/oalsramM
+  0140) 000000007d001000-000000007d001fff o:0000 a:0003 p:100 c:0 n:/memory/gicd
+  0160) 000000007d002000-000000007d002fff o:0000 a:0003 p:100 c:0 n:/memory/gicc
+  0180) 000000009fff7000-000000009fffcfff o:0020 a:0005 p:100 c:0 n:/memory/below4G/fdt
+  01a0) 00000000c30950b8-00000000c50e96f3 o:0000 a:0005 p:100 c:0 n:/memory/imagefs
+  01c0) 00000000c3080fb4-00000000c30950b7 o:0000 a:0007 p:100 c:0 n:/memory/startup
+  01e0) 00000000c30950b8-00000000c50e96f3 o:0000 a:0007 p:100 c:0 n:/memory/bootram
+  0200) 0000000000000000-00000000ffffffff o:ffff a:0010 p:100 c:0 n:/virtual
+  0220) ffffff806001c000-ffffff80600dca80 o:0200 a:0000 p:100 c:0 n:/virtual/vboot
+  0240) 0000000080000000-0000000080017fff o:0040 a:0007 p:100 c:0 n:/memory/below4G/ram/sysram
+  0260) 0000000080022000-000000008a9f7fff o:0040 a:0007 p:100 c:0 n:/memory/below4G/ram/sysram
+  0280) 00000000c1100000-00000000c307ffff o:0060 a:0007 p:100 c:0 n:/memory/below4G/ram/sysram
+  02a0) 00000000c50ea000-00000000caffffff o:0060 a:0007 p:100 c:0 n:/memory/below4G/ram/sysram
+Section:hwinfo offset:0x000005e0 size:0x00000340
+  0) size:3 tag:3(Group) isize:3, iname:0(hw), owner:65535, kids:11
+  12) size:3 tag:17(Bus) isize:3, iname:9(unknown), owner:0, kids:3
+  24) size:3 tag:17(Bus) isize:12, iname:103(i2c), owner:0, kids:0
+  36) size:1 tag:107(pad)
+  40) size:6 tag:111(location)
+     00 10 00 00 00 10 05 40 00 00 00 00 00 00 00 00 00 00 00 00
+  64) size:2 tag:120(irq)
+     63 00 00 00
+  72) size:3 tag:17(Bus) isize:12, iname:103(i2c), owner:0, kids:0
+  84) size:1 tag:107(pad)
+  88) size:6 tag:111(location)
+     00 10 00 00 00 80 0b 40 00 00 00 00 00 00 00 00 00 00 00 00
+  112) size:2 tag:120(irq)
+     64 00 00 00
+  120) size:3 tag:17(Bus) isize:12, iname:103(i2c), owner:0, kids:0
+  132) size:1 tag:107(pad)
+  136) size:6 tag:111(location)
+     00 10 00 00 00 a0 0b 40 00 00 00 00 00 00 00 00 00 00 00 00
+  160) size:2 tag:120(irq)
+     65 00 00 00
+  168) size:4 tag:128(Device) isize:12, iname:124(fec), owner:0, kids:0
+     02 00 00 00
+  184) size:6 tag:111(location)
+     00 10 00 00 00 20 03 40 00 00 00 00 00 00 00 00 00 00 00 00
+  208) size:2 tag:120(irq)
+     43 00 00 00
+  216) size:4 tag:128(Device) isize:13, iname:135(wdog), owner:12, kids:0
+     07 00 00 00
+  232) size:6 tag:111(location)
+     00 10 00 00 00 60 08 40 00 00 00 00 00 00 00 00 00 00 00 00
+  256) size:3 tag:140(inputclk)
+     0a 00 00 00 01 00 00 00
+  268) size:4 tag:128(Device) isize:14, iname:149(wdt,options), owner:12, kids:0
+     00 00 00 00
+  284) size:2 tag:173(regname)
+     a1 00 20 00
+  292) size:2 tag:173(regname)
+     b5 00 20 00
+  300) size:2 tag:173(regname)
+     c2 00 01 00
+  308) size:2 tag:173(regname)
+     ce 00 01 00
+  316) size:2 tag:173(regname)
+     df 00 00 00
+  324) size:4 tag:128(Device) isize:12, iname:237(wdt,regwrite), owner:12, kids:0
+     00 00 00 00
+  340) size:2 tag:173(regname)
+     fa 00 10 00
+  348) size:2 tag:173(regname)
+     01 01 02 a6
+  356) size:2 tag:173(regname)
+     fa 00 10 00
+  364) size:2 tag:173(regname)
+     01 01 80 b4
+  372) size:3 tag:17(Bus) isize:17, iname:263(can), owner:0, kids:0
+  384) size:6 tag:111(location)
+     00 10 00 00 00 50 05 40 00 00 00 00 00 00 00 00 00 00 00 00
+  408) size:2 tag:120(irq)
+     4a 00 00 00
+  416) size:6 tag:111(location)
+     00 10 00 00 80 50 05 40 00 00 00 00 00 00 00 00 00 00 00 00
+  440) size:3 tag:17(Bus) isize:18, iname:263(can), owner:0, kids:0
+  452) size:1 tag:107(pad)
+  456) size:6 tag:111(location)
+     00 10 00 00 00 e0 0b 40 00 00 00 00 00 00 00 00 00 00 00 00
+  480) size:2 tag:120(irq)
+     4c 00 00 00
+  488) size:6 tag:111(location)
+     00 10 00 00 80 e0 0b 40 00 00 00 00 00 00 00 00 00 00 00 00
+  512) size:3 tag:17(Bus) isize:15, iname:267(spi), owner:0, kids:0
+  524) size:1 tag:107(pad)
+  528) size:6 tag:111(location)
+     40 01 00 00 00 70 05 40 00 00 00 00 00 00 00 00 00 00 00 00
+  552) size:2 tag:120(irq)
+     5d 00 00 00
+  560) size:3 tag:140(inputclk)
+     40 6b ed 07 01 00 00 00
+  572) size:3 tag:17(Bus) isize:14, iname:267(spi), owner:0, kids:0
+  584) size:6 tag:111(location)
+     40 01 00 00 00 00 0c 40 00 00 00 00 00 00 00 00 00 00 00 00
+  608) size:2 tag:120(irq)
+     5e 00 00 00
+  616) size:3 tag:140(inputclk)
+     40 6b ed 07 01 00 00 00
+  628) size:3 tag:17(Bus) isize:14, iname:267(spi), owner:0, kids:0
+  640) size:6 tag:111(location)
+     40 01 00 00 00 90 05 40 00 00 00 00 00 00 00 00 00 00 00 00
+  664) size:2 tag:120(irq)
+     5f 00 00 00
+  672) size:3 tag:140(inputclk)
+     40 6b ed 07 01 00 00 00
+  684) size:3 tag:17(Bus) isize:14, iname:267(spi), owner:0, kids:0
+  696) size:6 tag:111(location)
+     40 01 00 00 00 20 0c 40 00 00 00 00 00 00 00 00 00 00 00 00
+  720) size:2 tag:120(irq)
+     60 00 00 00
+  728) size:3 tag:140(inputclk)
+     40 6b ed 07 01 00 00 00
+Section:typed_strings offset:0x00000460 size:0x00000038
+  off:0 type:5 string:'S32V234 EVB2 (SCH-29288)'
+  off:32 type:2 string:'localhost'
+Section:strings offset:0x00000498 size:0x00000148
+  [0]'hw' [3]'Group' [9]'unknown' [17]'Bus' [21]'memory' [28]'below4G'
+  [36]'ram' [40]'dcu' [44]'shm' [48]'oalddr0' [56]'oalddr1' [64]'oalsramS'
+  [73]'oalsramM' [82]'gicd' [87]'gicc' [92]'Cortex-A53' [103]'i2c' [107]'pad'
+  [111]'location' [120]'irq' [124]'fec' [128]'Device' [135]'wdog'
+  [140]'inputclk' [149]'wdt,options' [161]'write_width' [173]'regname'
+  [181]'enable_width' [194]'enable_mask' [206]'enable_condition'
+  [223]'enable_offset' [237]'wdt,regwrite' [250]'offset' [257]'value'
+  [263]'can' [267]'spi' [271]'fdt' [275]'imagefs' [283]'startup' [291]'bootram'
+  [299]'virtual' [307]'vboot' [313]'sysram'
+Section:intrinfo offset:0x00000be0 size:0x000000c0 elsize:0x00000060
+  0) vector_base:00000000, #vectors:224, cascade_vector:7fffffff
+     cpu_intr_base:00000000, cpu_intr_stride:0, flags:0000, local_stride:0
+      id => flags:0000, size:002c, rtn:ffffff8040204e08
+     eoi => flags:0000, size:0018, rtn:ffffff8040204e34
+     mask:ffffff8040204e4c, unmask:ffffff8040204e7c, config:ffffff8040204eac
+  1) vector_base:00001000, #vectors:32, cascade_vector:00000089
+     cpu_intr_base:00000000, cpu_intr_stride:0, flags:0400, local_stride:0
+      id => flags:0800, size:004c, rtn:ffffff8040204ebc
+     eoi => flags:1000, size:0030, rtn:ffffff8040204f08
+     mask:ffffff8040204f38, unmask:ffffff8040204f70, config:0000000000000000
+Section:smp offset:0x000002a0 size:0x00000028
+  send_ipi:ffffff8040204ffc cpu:00000000 cpu2:0000000000000000
+Section:pminfo offset:0x00000ce0 size:0x00000000
+Section:mdriver offset:0x00000ce0 size:0x00000000 elsize:0x00000030

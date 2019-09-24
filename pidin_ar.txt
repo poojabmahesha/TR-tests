@@ -1,0 +1,19 @@
+     pid Arguments
+       1 procnto-smp-instr -vvvvv
+       2 pipe
+       3 slogger2
+    4100 s32v-wdtkick
+    4101 random -t
+    4102 devc-serlinflexd -e -F -S -c66666667 0x40053000,91
+    4103 devb-sdmmc-s32v cam pnp,verbose blk rw,cache=2M sdio addr=0x4005D000,irq=60,bs=cd_gpio=29 disk name=sd
+    4104 spi-master -u0 -d nxpspi base=0x40057000,irq=93
+    4105 io-pkt-v6-hc -d mx6x-s32v-sw speed=1000,duplex=1
+   28683 dhclient -nw fec0
+   53258 devc-pty
+   53260 qconn port=8000
+   53262 ksh
+   53264 inetd
+   69650 /usr/sbin/sshd
+ 1212429 /usr/sbin/sshd -R
+ 1224721 sh -c sh
+ 1228815 pidin ar
